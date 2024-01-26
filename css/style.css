@@ -1,0 +1,468 @@
+/* Global styles */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+}
+
+a {
+    color: #0077c0;
+    text-decoration: none;
+}
+
+a:hover {}
+
+.w-100 {
+    width: 100% !important;
+}
+
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.content {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.column {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.section {
+    margin: 30px 0;
+    padding: 20px 0;
+}
+
+.text-dark {
+    color: #131318;
+}
+
+.text-primary {
+    color: #FF5400;
+}
+
+.text-start {
+    text-align: left !important;
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.d-none {
+    display: none !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.align-content-end {
+    align-content: flex-end !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: #FFFFFF;
+    background: #FF5400;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.extra-bold {
+    font-weight: 900;
+}
+
+ul.ul-list {}
+
+ul.ul-list li {
+    margin-bottom: 5px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Header styles */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+nav a {
+    color: #424247;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #FF5400;
+}
+
+nav .bars {
+    margin-top: 10px;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.logo-text span {
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
+/* banner styles */
+.banner .banner-bg {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/Top-Banner.png) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.banner .banner-title {
+    color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.find-now {
+    position: relative;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 15px;
+}
+
+.form-div {
+    position: relative;
+}
+
+
+
+.banner .input-text,
+.banner .input-select {
+    border-radius: 6px;
+    background: #FFF;
+    padding: 8px 15px;
+    border: 1px solid #fff;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+h2.title {
+    color: #131318;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.perfect-place h2.title {
+    color: #131318;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+
+h3.title {
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.our-popular-tours .ul-list {
+    padding-left: 20px;
+}
+
+.choose-your-destination .column-2 .item,
+.choose-your-destination .column-3 .item {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.choose-your-destination .item img {
+    border-radius: 15px;
+}
+
+.choose-your-destination .item .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    font-size: 28px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.why-choose-us .icon {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 20px;
+}
+
+.why-choose-us .color-box {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.why-choose-us .color-1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.why-choose-us .color-2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.winter-travel .content {
+    padding: 120px 0 20px;
+}
+
+.winter-travel .banner-bg {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.42) 0%, rgba(0, 0, 0, 0.42) 100%), url(../images/winter-travel.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.winter-travel .title {
+    padding-top: 150px;
+}
+
+.winter-travel .title,
+.winter-travel p {
+    color: #FFFFFF;
+}
+
+.newsletter .border {
+    border-radius: 10px;
+    border: 1px solid #FF5400;
+    padding: 20px;
+}
+
+.perfect-place .ul-list {
+    padding-left: 12px;
+    color: #131318;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.perfect-place img {
+    border-radius: 15px;
+}
+
+.newsletter hr.hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.newsletter-form {
+    margin-top: 30px;
+}
+
+.newsletter-form .input-text {
+    width: 100%;
+    border-radius: 6px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.newsletter-form .form-div {
+    margin-bottom: 15px;
+}
+
+
+.newsletter .img img {
+    border-radius: 15px;
+}
+
+.newsletter .img .text-box {
+    position: absolute;
+    top: 55%;
+    left: 53%;
+    color: #FFF;
+    transform: rotate(-40deg);
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    white-space: nowrap;
+    border-radius: 15px;
+    background: #FF5400;
+    padding: 15px 32px;
+}
+
+.newsletter .img .text-box p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.newsletter .img .text-box h4 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer {
+    background: rgba(19, 19, 24, 0.05);
+    padding: 100px 0 40px;
+}
+
+.footer .logo img {
+    margin-right: 10px;
+    width: 35px;
+}
+
+.footer .logo-text {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.footer .logo-text span {
+    margin-left: 10px;
+}
+
+.social-icon a {
+    padding-right: 10px;
+    color: #131318;
+}
+
+.social-icon a:hover {
+    color: #FF5400;
+}
+
+.footer .bottom-line {
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+}
+
+.footer p.copy-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 20px;
+}
